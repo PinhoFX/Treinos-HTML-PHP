@@ -1,0 +1,11 @@
+body{
+margin: 0px;
+background-image: linear-gradient(black, transparent, black),url("../img/backfundo2.png") ;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+overflow: hidden;
+}
+.canto{
+    float: right;
+}

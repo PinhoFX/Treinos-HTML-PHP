@@ -1,0 +1,46 @@
+h1{
+    font-family: impact;
+    position:relative;
+    text-align: center;
+}
+
+h3{
+    font-family: impact;
+    position:relative;
+    text-align: center;
+}
+
+/* FORMULARIO */
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+.sub{
+    text-align: center;
+    font-size: 25px;
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.sub:hover{
+    text-align: center;
+    font-size: 25px;
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-shadow: none;
+}
+      
