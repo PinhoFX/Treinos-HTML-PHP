@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+  }
+  
+  li {
+    float: left;
+    opacity: 1;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    opacity: 1;
+    background-color: black;
+  }
+  
+  .active {
+    background-color: blue;
+  }
+  .imagem{
+    opacity: 1;
+    float: left;
+    text-align: center;
+    padding: 4px 16px;
+  }
+  .CENTER{
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

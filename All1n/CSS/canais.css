@@ -1,0 +1,84 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 0 10px 0 red;
+  transition: 0.5s;
+  background: white;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0px 0px 20px 0px blue;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+.cardw {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 0 10px 0 red;
+  transition: 0.5s;
+  background: black;
+  color: white;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardw:hover {
+  color: white;
+  box-shadow: 0px 0px 20px 0px blue;
+}
+
+/* Add some padding inside the card container */
+.containerw {
+  color: white;
+  padding: 2px 16px;
+}
+
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+    vertical-align: middle;
+    font-family: Impact, fantasy;
+}
+
+.texto{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+    vertical-align: middle;
+    font-family: Impact, fantasy;
+}
+.h32{
+  font-size: 45px;
+}
+
+.textopreto{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+    vertical-align: middle;
+    font-family: Impact, fantasy;
+}
+.h32black{
+  font-size: 45px;
+}
+
+.textovermais{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: fantasy;
+}
