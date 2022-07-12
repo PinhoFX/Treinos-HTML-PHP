@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    background-color: black ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    }
+.canto{
+    float: right;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  .container {
+    height: 80vh;
+    position: relative;
+    
+  }
+  
+  .img {
+    width: 70%;
+    max-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+                            /*Footer design */
+
+  footer{
+    font-family: monospace;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 50%;
+    
+  }
+  
+  .icons{
+    
+    width: 100%;
+    font-size: 25px;
+    align-items: center;
+    color: white;
+    padding-top: -40px;
+    padding-bottom:10px ;
+    width: 70%;
+    max-height: auto;
+  }
+  .fa-youtube, .fa-twitter, .fa-twitch, .fa-instagram{
+    color: white;
+    text-decoration:none; 
+  }
+
+                            /* Fim Footer design */
